@@ -14,6 +14,7 @@ contract new1{
     function sum() public view returns(uint){
         return num3;
     } 
+    // a fuction that doesn't read or modify the variable of the state
     function add1() public pure returns(uint s){
         uint num4 = 4;
         uint num5 =7;
